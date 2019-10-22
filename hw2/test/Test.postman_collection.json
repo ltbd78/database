@@ -1,0 +1,437 @@
+{
+	"info": {
+		"_postman_id": "86aa0fa5-c06f-4a21-8879-b9be9de80d9c",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5002/api/databases",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/databases",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"databases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/databases/sandbox",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/databases/sandbox",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"databases",
+						"sandbox"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/sandbox/people",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/sandbox/people",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"sandbox",
+						"people"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"sandbox",
+						"people",
+						"lh2910"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\",\r\n\"birthYear\": \"1995\",\r\n\"birthMonth\": \"11\",\r\n\"birthDay\": \"21\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"sandbox",
+						"people",
+						"lh2910"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\",\r\n\"birthYear\": \"1995\",\r\n\"birthMonth\": \"11\",\r\n\"birthDay\": \"21\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"sandbox",
+						"people",
+						"lh2910"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\",\r\n\"birthYear\": \"1995\",\r\n\"birthMonth\": \"11\",\r\n\"birthDay\": \"21\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"sandbox",
+						"people",
+						"lh2910"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\",\r\n\"birthYear\": \"1995\",\r\n\"birthMonth\": \"11\",\r\n\"birthDay\": \"21\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/sandbox/people/lh2910",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"sandbox",
+						"people",
+						"lh2910"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/sandbox/people/willite01?fields=playerID,nameLast,nameFirst\n",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\",\r\n\"birthYear\": \"1995\",\r\n\"birthMonth\": \"11\",\r\n\"birthDay\": \"21\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/sandbox/people/willite01?fields=playerID,nameLast,nameFirst\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"sandbox",
+						"people",
+						"willite01"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "playerID,nameLast,nameFirst\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5002/api/sandbox/people?fields=playerID,nameLast,nameFirst,birthYear&birthMonth=11&birthDay=21\n",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nameLast\" : \"Han\",\r\n\"nameFirst\": \"Linsu\",\r\n\"playerID\": \"lh2910\",\r\n\"birthYear\": \"1995\",\r\n\"birthMonth\": \"11\",\r\n\"birthDay\": \"21\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5002/api/sandbox/people?fields=playerID,nameLast,nameFirst,birthYear&birthMonth=11&birthDay=21\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5002",
+					"path": [
+						"api",
+						"sandbox",
+						"people"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "playerID,nameLast,nameFirst,birthYear"
+						},
+						{
+							"key": "birthMonth",
+							"value": "11"
+						},
+						{
+							"key": "birthDay",
+							"value": "21\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

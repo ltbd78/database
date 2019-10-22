@@ -1,0 +1,37 @@
+Cases to Test
+
+1: GET /api/databases
+
+2: GET /api/databases/sandbox
+
+3: POST /api/sandbox/people
+{"nameLast" : "Han",
+"nameFirst": "Linsu",
+"playerID": "lh2910"}
+
+4: GET /api/sandbox/people/lh2910
+Confirms POST worked
+
+5: PUT /api/sandbox/people/lh2910
+{"nameLast" : "Han",
+"nameFirst": "Linsu",
+"playerID": "lh2910",
+"birthYear": "1995",
+"birthMonth": "11",
+"birthDay": "21"}
+
+6: GET /api/sandbox/people/lh2910
+Confirms PUT worked
+
+7: DELETE /api/sandbox/people/lh2910
+
+8: GET /api/sandbox/people/lh2910
+Confirms DELETE worked
+
+9: GET /api/sandbox/people/willite01?fields=playerID,nameLast,nameFirst
+
+10: GET /api/sandbox/people?fields=playerID,nameLast,nameFirst,birthYear&birthMonth=11&birthDay=21
+
+Bonus test will click on the generated url of test 10 to test pagination.
+
+
